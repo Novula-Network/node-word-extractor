@@ -1,3 +1,9 @@
+> **Maintained fork.** This is `Novula-Network/node-word-extractor`, a fork of
+> [morungos/node-word-extractor](https://github.com/morungos/node-word-extractor)
+> that carries an unreleased upstream fix and hardening against damaged or crafted
+> `.doc` files. See the 1.0.5-novula.1 entry of [CHANGELOG.md](CHANGELOG.md). It is
+> not published to npm: install the tarball attached to a release.
+
 ## word-extractor
 
 [![npm version](https://badge.fury.io/js/word-extractor.svg)](https://badge.fury.io/js/word-extractor) ![test workflow](https://github.com/morungos/node-word-extractor/actions/workflows/main.yml/badge.svg)

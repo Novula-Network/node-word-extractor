@@ -36,3 +36,10 @@ from the same file, and should extract to the same document data.
 * `test13.doc` -- a short test of endnotes and footnotes combined.
 
 * `test14.doc` -- a short test of insertion and deletion.
+
+* `hardening-character-spacing.doc` -- expanded and condensed character spacing; generated
+  with macOS `textutil` from a hand-written RTF. Published 1.0.4 dropped both spaced lines.
+
+* `hardening-encrypted.doc` -- a password-protected file, unmodified copy of
+  `test-data/document/PasswordProtected.doc` from Apache POI (Apache License 2.0),
+  sha256 `863d2216a6f5bb4cec0ea4131a05ae0822dbce347e2940155ef638c6d64935fe`.

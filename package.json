@@ -1,6 +1,6 @@
 {
   "name": "word-extractor",
-  "version": "1.0.4",
+  "version": "1.0.5-novula.1",
   "description": "Node.js package to read Word .doc files",
   "main": "lib/word.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/morungos/node-word-extractor.git"
+    "url": "https://github.com/Novula-Network/node-word-extractor.git"
   },
   "keywords": [
     "word"
@@ -19,9 +19,9 @@
   "author": "Stuart Watt <stuart@morungos.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/morungos/node-word-extractor/issues"
+    "url": "https://github.com/Novula-Network/node-word-extractor/issues"
   },
-  "homepage": "https://github.com/morungos/node-word-extractor",
+  "homepage": "https://github.com/Novula-Network/node-word-extractor",
   "devDependencies": {
     "eslint": "^7.25.0",
     "jest": "^26.6.0",

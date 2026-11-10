@@ -1,5 +1,22 @@
 # Change log
 
+### 1.0.5-novula.1 / 10th November 2026
+
+Maintained fork (Novula-Network). Carries the unreleased upstream fix for the
+property code width, and hardens the reader against damaged or crafted files.
+
+ * Includes upstream f7cd64a: read all nine bits of a property code. Published
+   1.0.4 read five, mistook character spacing for a tracked deletion and
+   silently dropped the text. See upstream #70
+ * Tracked deletions are recognised by their whole property code (0x0800)
+ * A sector chain that loops is rejected instead of filling memory
+ * Sector sizes and sector counts are checked against the file before any
+   allocation; a chain longer than the file is rejected
+ * A password-protected file is rejected with "Unable to read an encrypted
+   Word document" instead of an unrelated out-of-bounds error
+ * A failed read on a stream destroys the stream instead of leaving an
+   unhandled rejection
+
 ### 1.0.4 / 26th July 2021
 
  * Fixed issue with missing content from LibreOffice files. See #40
